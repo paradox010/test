@@ -1,0 +1,159 @@
+#homePageList{
+    padding: 0 32px;
+    background:rgba(244,245,249,1);
+}
+#homePageList .ant-card-meta{
+    /*height: 53px;*/
+    margin-bottom: 16px;
+}
+#homePageList .ant-divider{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.statistics{
+    margin-bottom: 12px;
+    color:rgba(0,0,0,0.65);
+}
+.listInfo{
+    padding: 0;
+    margin: 0;
+}
+.listInfo li{
+    overflow: hidden;
+    list-style: none;
+    color: #000;
+    padding: 0 12px;
+    line-height: 24px;
+}
+/*.eventNumber{*/
+    /*float: right;*/
+/*}*/
+.eventNumber i{
+    color: pink;
+}
+.charts{
+    height: 220px;
+    width: 200px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 22px;
+}
+.buttons button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.formList{
+    width: 580px;
+}
+.formList .ant-form-inline .ant-form-item{
+    margin-right: 0;
+    margin-bottom: 24px;
+}
+.formList .ant-form{
+    width: 352px;
+    margin: 0 auto;
+    height: 180px;
+}
+.formList .ant-modal-footer{
+    border-top: 0;
+    padding-bottom: 30px;
+}
+.iconPlus{
+    font-size: 80px;
+}
+.iconPlus:before{
+    color: lightgray;
+}
+.addNewCard{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 2px dashed rgba(0,0,0,0.15);
+}
+.addNewCard:hover{
+    background:rgba(157,190,254,0.09);
+    border: 2px dashed #9DBEFE;
+    cursor: pointer;
+}
+.addNewCard:hover .iconPlus:before,.addNewCard:hover span{
+    color: #9DBEFE;
+}
+#homePageList .ant-col-6{
+    margin-bottom: 20px;
+}
+#homePageList .ant-card-body{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 8px 24px 24px 24px;
+}
+.itemListTitle{
+    line-height: 48px;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 16px;
+}
+.listEdit .ant-divider-horizontal{
+    margin: 5px 0;
+}
+.cardList .ant-card-head{
+    border-bottom: none;
+}
+.cardList:hover{
+    box-shadow: 0 0 14px 0 rgba(157,190,254,0.45)
+}
+.cardList:hover .ant-card-head .ant-card-head-title{
+    color: #3861B1;
+}
+.cardList:hover .ant-card-body{
+    cursor: pointer;
+}
+.eventTitle{
+    padding: 0;
+}
+.eventTitle li{
+    display: inline-block;
+    padding: 0;
+}
+.eventListTable{
+    border-bottom: none;
+    background:rgba(230,234,250,1);
+    height: 24px;
+    line-height: 24px;
+}
+.openEditList{
+    display: inline-block;
+    width: 40px;
+    cursor: pointer;
+}
+#homePageList .listInfo>li:not(:first-child)  .ant-col-8:not(:first-child){
+padding-left: 20px;
+}
+.vertical-center-modal {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.vertical-center-modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+}
+.deleteModal{
+    top: 50%;
+    margin-top: -93px;
+}

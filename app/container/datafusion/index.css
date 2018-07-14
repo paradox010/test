@@ -1,0 +1,119 @@
+.test:hover>.aaa{
+    color: blue
+}
+.df-left-tree-title-opt{
+    float: right;
+    margin-right: 10px;
+    color: #3963b2;
+    display: none;
+}
+.ant-collapse-header:hover .df-left-tree-title-opt{
+    display: inline-block;
+}
+.dd-mainarea-right-title{
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 2px 2px 5px #868685;
+    -moz-box-shadow: 2px 2px 5px #868685;
+    -webkit-box-shadow: 2px 2px 5px #868685;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.df-panel-wrap{
+    width:320px;
+    background:rgba(251,251,251,1);
+    box-shadow: 0px 0px 8px 0px rgba(57,98,178,0.24);
+    border-radius: 2px ;
+    font-size: 16px;
+    margin-bottom: 12px;
+    max-height: 500px;
+    flex-direction: column;
+}
+
+.df-collapse-class{
+    background:#f4f5f9;
+    margin: 12px 28px 0 32px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.df-panel-wrap .ant-collapse-content{
+    flex:1;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.df-panel-wrap .ant-collapse-content::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+
+}
+.df-panel-wrap .ant-collapse-content::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.df-panel-wrap .ant-collapse-content::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 4px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow:before{
+    content: "\E606";
+    transform: rotate(270deg);
+}
+
+.df-left-wrap{
+    flex-direction: column;
+    height: 100%;
+}
+
+.df-left-wrap .ant-tree > li:first-child{
+    padding-top: 0px;
+}
+.ant-collapse-item-active.df-panel-wrap{
+	border:2px solid rgba(157,190,254,1)
+}
+.df-left-wrap .ant-tree > li{
+    padding-left: 18px;
+}
+
+.df-left-wrap .ant-collapse > .ant-collapse-item > .ant-collapse-header{
+/*    background: #ebecee;*/
+	color:#4A4A4A;
+}
+.df-left-wrap .ant-collapse > .ant-collapse-item.ant-collapse-item-active > .ant-collapse-header{
+	color: #3C64B3;
+}
+.df-left-wrap .ant-collapse-content{
+    padding: 0
+}
+.df-left-wrap .ant-tree .wt-wrap-class .ant-tree-node-content-wrapper{
+	color: #3C64B3;
+}
+/*
+.df-panel-wrap .ant-tree > li:first-child{
+    padding: 12.5px 0 4px 0;
+}
+*/
+
+/* child01 */
+.df-table-columns-line{
+    text-align: center;
+}
+
+.df-child01-table-class .ant-table-thead > tr > th{
+    text-align: center;
+}
+
+/* child02 */
+.df-child01-radio-class .ant-radio-button-wrapper-checked{
+    background: #3963b2;
+    color: #fff
+}
+.com-card-body{
+    height: 89%;
+    overflow-y: auto;
+}

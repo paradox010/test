@@ -1,0 +1,31 @@
+.baselayout-logo{
+    width: 210px;
+    height: 31px;
+    background: url('../../static/images/logo.png') no-repeat ;
+    margin: 16px 0px 16px 28px;
+    float: left;
+    width: 252px;
+}
+.baselayout-header-li{
+    height: 64px;
+}
+.baselayout-header-li i{
+    display: block;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.baselayout-header-li span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.baselayout-content{
+    background: #f7f7f7;
+    flex: 1;
+    /* flex-wrap: wrap;
+    -webkit-wrap:wrap; */
+    overflow: hidden;
+}

@@ -1,0 +1,10 @@
+.has-success.has-feedback:after {
+    animation-name: diffZoomIn1 !important;
+    content: '\E630';
+    color: #3963b2;
+}
+
+
+.wrap-form-select .ant-select-arrow{
+    right:30px
+}

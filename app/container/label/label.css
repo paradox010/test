@@ -1,0 +1,187 @@
+.menuList{
+    padding:0px 32px 0 32px;
+    height:80%;
+    overflow-y: scroll;
+}
+.menuList::-webkit-scrollbar,.editArea::-webkit-scrollbar{
+    width: 4px;
+    background-color: transparent;
+
+}
+.menuList::-webkit-scrollbar-track,.editArea::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.menuList::-webkit-scrollbar-thumb,.editArea::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 4px;
+}
+.editArea::-webkit-scrollbar-thumb{
+    background: #fff;
+}
+.menuList li{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    background: #fff;
+}
+
+.menuList>li{
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    max-height: 666px;
+}
+.menuTitle{
+    height: 48px;
+    line-height: 48px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.menuTitleSelect{
+    background:rgba(230,234,250,1);
+    color: #3C64B3;
+    border-bottom: 2px solid #9DBEFE;
+}
+.menuList>li>ul>li{
+    margin-bottom: 16px;
+    overflow: hidden;
+    width: 240px;
+}
+.menuList>li>ul>li label{
+    width: 70px;
+    display: inline-block;
+}
+.menuListLi{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.24);
+}
+.menuListSelected{
+    box-shadow: 0 0 8px 0 rgba(57,98,178,0.24);
+    border: 2px solid #9DBEFE;
+}
+.menuList li ul{
+    padding: 32px 11px 0 31px;
+}
+.baselayout-logo{
+    width: 204px;
+    height: 31px;
+    background: url('../../static/images/logo.png') no-repeat ;
+    margin: 16px 24px 16px 0;
+    float: left;
+
+}
+.dropDownMenuList{
+    background: none;
+    border: none;
+}
+.dropDownMenuList  .ant-menu-submenu{
+    background: #fff;
+    margin-bottom: 13px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.24)
+}
+.inputArea{
+    width: 166px;
+    line-height: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    float: right;
+}
+.inputAreaSelect{
+    background:rgba(230,234,250,1);
+}
+.inputArea input{
+    width: 140px;
+    border: none;
+    height: 27px;
+    background: none;
+    outline: none;
+    padding: 0 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.eventListTitle{
+    line-height: 48px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 32px 15px 32px;
+    overflow: hidden;
+}
+.eventListTitle i{
+    float: right;
+    font-size: 22px;
+    margin-top: 14px;
+}
+.inputsList{
+    color: #3861B1;
+}
+.checkboxList{
+    padding: 0 15px 0 15px;
+    background: rgba(0,0,0,0.01);
+    width: 325px;
+    max-height: 226px;
+    overflow-y: auto;
+}
+.checkboxList .ant-checkbox-group-item{
+    display: block;
+}
+.checkboxListPar>.ant-form-item-label{
+    display: block !important;
+    text-align: left;
+}
+.checkboxListPar .ant-checkbox:hover .ant-checkbox-inner,.checkboxListPar .ant-checkbox-wrapper:hover .ant-checkbox-inner{
+    border-color: #40A9FF;
+}
+.checkboxListPar .ant-checkbox-checked .ant-checkbox-inner,.checkboxListPar .ant-checkbox-indeterminate .ant-checkbox-inner{
+    background: #40A9FF;
+    border-color: #40A9FF;
+}
+.tagStyle{
+    width: 88px;
+    height: 56px;
+    text-align: center;
+    padding-top: 6px;
+}
+.labelTitle{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.docsList .ant-list-item{
+    padding-left: 30px;
+}
+.docsList .ant-list-item:hover{
+    cursor: pointer;
+    background: rgba(230,247,255,1);
+}
+/*.ant-popover-inner-content{*/
+    /*padding: 0;*/
+/*}*/
+.prevText{
+    color:rgba(60,100,179,1);
+    font-size: 16px;
+    cursor: pointer;
+}
+.textTitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    display: inline-block;
+}
+.pdfNoneExit{
+    display: inline-block;
+    width: 71px;
+    height: 24px;
+    background: rgba(204,204,204,1);
+    float: right;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: #fff;
+}
+.pdfExit{
+    background:rgba(208,2,27,1);
+    cursor: pointer;
+}

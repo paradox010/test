@@ -1,0 +1,31 @@
+
+.navlabel-label{
+    margin: 12px 0 8px 0;
+    font-size: 16px;
+    color: #3C64B3;
+    height: 24px;
+    padding: 0 28px 0 32px;
+}
+
+.navlabel-span1{
+    width: 2px;
+    height: 18px;
+    background: #3C64B3;
+    float: left;
+    margin-top: 3px;
+    margin-right: 12px;
+}
+
+.navlabel-span2{
+    float: right;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.navlabel-span2:hover{
+    background:rgba(230,234,250,1);
+    box-shadow: 0px 0px 4px 0px rgba(57,98,178,0.24);
+    border-radius: 1px;
+}

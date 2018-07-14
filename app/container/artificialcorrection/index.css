@@ -1,0 +1,70 @@
+.ManualErrorCorrectionTitle{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.ScreeningConditions{
+    width: 26%;
+    height: 32px;
+    margin-left: 16px;
+    max-width: 160px;
+    min-width: 106px;
+    background: #EBECEE;
+}
+.ScreeningConditionsNew{
+    width: 34%;
+    height: 32px;
+    margin-left: 2%;
+    max-width: 208px;
+    min-width: 170px;
+    background: #EBECEE;
+}
+.ScreeningConditionsNew input{
+    background: #EBECEE;
+}
+.labelTable{
+    /*height: 79%;*/
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+}
+.labelTable::-webkit-scrollbar{
+    width: 4px;
+    background-color: transparent;
+
+}
+.labelTable::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.labelTable::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 4px;
+}
+.labelTable .ant-table-row >td:first-child{
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    height: 54px;
+    border-left: none !important;
+}
+.labelTable .ant-table-bordered .ant-table-tbody > tr > td{
+    border-right: none;
+    border-left: 1px solid #e8e8e8;
+    border-bottom: none;
+}
+.labelTable  .ant-table-tbody > tr{
+    border-bottom: 1px solid #e8e8e8;
+}
+.labelTable .ant-table table{
+    border-collapse:collapse;
+}
+.labelTable .ant-table-body{
+    border: 1px solid #e8e8e8;
+}
+.labelTable  .ant-table-tbody > tr:hover{
+    background: #e1e9f0;
+}

@@ -1,0 +1,64 @@
+.ts-mainarea-right-title{
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    margin: 0 32px;
+    border-bottom: 1px solid #CCCCCC;
+    /* box-shadow: 2px 2px 5px #868685;
+    -moz-box-shadow: 2px 2px 5px #868685;
+    -webkit-box-shadow: 2px 2px 5px #868685; */
+}
+
+.ts-mainarea-right-content{
+    flex:1;
+    padding-top:80px;
+    overflow: auto;
+}
+
+.ts-mainarea-right-content::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+
+}
+.ts-mainarea-right-content::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.ts-mainarea-right-content::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 4px;
+}
+
+.ts-mainarea-left{
+    flex-direction: column;
+    height: 100%;
+}
+
+.ts-mainarea-left-btn-div{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.ts-mainarea-left-taglist{
+    flex:1;
+    overflow:auto;
+    overflow-x: hidden;
+}
+
+.ts-mainarea-left-taglist::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+
+}
+.ts-mainarea-left-taglist::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.ts-mainarea-left-taglist::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 4px;
+}
+.wrapHideMargin .ant-tabs-nav .ant-tabs-tab{
+    margin: 0;
+}
